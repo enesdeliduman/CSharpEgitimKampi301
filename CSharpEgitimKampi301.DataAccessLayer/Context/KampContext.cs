@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpEgitimKampi301.EntityLayer
+namespace CSharpEgitimKampi301.DataAccessLayer
 {
     public class KampContext : DbContext
     {

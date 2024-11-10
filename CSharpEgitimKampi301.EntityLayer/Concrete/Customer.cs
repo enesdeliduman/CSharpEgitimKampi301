@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpEgitimKampi301.EntityLayer.Concrate
+namespace CSharpEgitimKampi301.EntityLayer.Concrete
 {
     public class Customer
     {
@@ -15,5 +15,6 @@ namespace CSharpEgitimKampi301.EntityLayer.Concrate
         public string CustomerCity { get; set; }
 
         public List<Order> Orders { get; set; }
+        public bool CustomerStatus { get; set; }
     }
 }
